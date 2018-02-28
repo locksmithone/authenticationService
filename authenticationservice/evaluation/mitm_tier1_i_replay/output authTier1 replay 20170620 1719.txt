@@ -1,0 +1,118 @@
+Simulation starting...
+Registering keys of keyType:  Password Hash (KDF)
+Registering keys of keyType:  Shared Key
+Registering keys of keyType:  Fingerprint
+Registering keys of keyType:  PIN
+Registering keys of keyType:  Pattern
+Registering keys of keyType:  Face
+Registering keys of keyType:  Iris
+Location Server: runProtocol.
+User agent: runProtocol.
+Location Server: processing state:  State.START_IDLE
+Location Server: processStartIdle.
+User agent: processing state:  State.START_IDLE
+Location Server: processStartIdle. Reset instance variables.
+User agent: processStartIdle.
+User agent: processStartIdle. Reset instance variables.
+Location Server: processing state:  State.LISTEN_FOR_CONNECTIONS
+location.service.agent : entering BNONCE scheduler...
+User agent: processing state:  State.CONNECT_TO_SERVICE
+Location Server: processListenForConnections.
+location.service.agent : BNONCE expired. Generating a new one...
+User agent: processConnectToService.
+self.agentObject =  <locationservice.LocationService object at 0x7f2125167e80>
+User agent: connected to Location Service.
+Location Server: connection request received and accepted.
+Location Server: CONNECTION_REQUEST_ACCEPTED_CONNECTED.
+User agent: CONNECTED to Location Service.
+User agent: processing state:  State.BROADCAST_ECDHE_ADVERTISEMENT_BLUETOOTH_LOCAUTH_ADVERTISEMENT
+Location Server: processing state:  State.BROADCAST_ECDHE_ADVERTISEMENT_BLUETOOTH_LOCAUTH_ADVERTISEMENT
+Location Server: processBroadcastEcdheAdvertisementBluetoothLocauthAdvertisement.
+User agent: processBroadcastEcdheAdvertisementBluetoothLocauthAdvertisement.
+Location Server: about to send message at processBroadcastEcdheAdvertisementBluetoothLocauthAdvertisement.
+location.service.agent  simulator, send raw message:
+User agent: received proper Location Service advertisement. Setting SPIr.
+ b'\x00\x00\x00j\x00\x00\x00\x00\x00\x00\x00\x00\xf8\xfe\x8dB\xc2\x07C\xdf\x00a\x00\x00\x00\x00\x00\x00{"uuid": "10caa7h0-5e12-71ce-010c-a7hebeac0140", "service": "LOCAUTH Service"}'
+User agent: SERVICE_ADVERTISEMENT_DETECTED.
+Location Server: finished Bluetooth service advertising.
+User agent: processing state:  State.BROADCAST_ECDHE_RECEIVE_BNONCE
+Location Server: processing state:  State.BROADCAST_ECDHE_BROADCAST_BNONCE
+User agent: processBroadcastEcdheReceiveBnonce.
+Location Server: Broadcast BNONCE.
+Location Server: Broadcast BNONCE: BNONCE empty. Waiting...
+Location Server: Broadcast BNONCE: BNONCE empty. Waiting...
+location.service.agent : the Nb is:  b'ei4m4qKrzSpxbdsQZzunoQ=='
+Location Server: sending BNONCE...
+location.service.agent  simulator, send raw message:
+ b'\x00\x00\x14\xad\x00\x00\x00\x00\x00\x00\x00\x00\xf8\xfe\x8dB\xc2\x07C\xdf\x00b\x00\x00\x00\x00\x00\x01{"locationServiceCertificate": "-----BEGIN CERTIFICATE-----\\nMIIEhTCCAu0CAgN4MA0GCSqGSIb3DQEBCwUAMIGHMQswCQYDVQQGEwJVUzERMA8G\\nA1UECAwIRGVsYXdhcmUxDzANBgNVBAcMBk5ld2FyazEbMBkGA1UECgwSUHJpc3Rp\\nbmVUZWNoTG9ja2VyMRswGQYDVQQLDBJQcmlzdGluZVRlY2hMb2NrZXIxGjAYBgNV\\nBAMMEWxvdGhhbC12aXJ0dWFsYm94MB4XDTE3MDYxMzIwMDE0M1oXDTE4MDYxMzIw\\nMDE0M1owgYcxCzAJBgNVBAYTAlVTMREwDwYDVQQIDAhEZWxhd2FyZTEPMA0GA1UE\\nBwwGTmV3YXJrMRswGQYDVQQKDBJQcmlzdGluZVRlY2hMb2NrZXIxGzAZBgNVBAsM\\nElByaXN0aW5lVGVjaExvY2tlcjEaMBgGA1UEAwwRbG90aGFsLXZpcnR1YWxib3gw\\nggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDXZ5TswNp0UFPPbalnSqKt\\nG+UgvEa7N65Gs7CFJSYhz/8LtoZNuUaUZXU681vWimqcV8IU5fg8AXiWoTzZsJA+\\nYvKm1Ozr4hfcXVJ03J8T2eV3HmCE8n8obYLB+dbnBIa+yM6FxtnJreJx12q7SEHG\\npG2XlX2npHvbE++69864x18JEk2hG1Xc1TIsmhER4KLj99wiQQhhVlqqvjS44/pZ\\nqY4dVx0LOKVie8aOoPp8jkU4ZT4pAiTiUIE7u+JpuyxB6aFO8cEVFIgRyvWiH/QR\\nCulxRQRVxCfCoT0GUtDcy5bc4s8qoLJJBrq7peLHzyjhvG+3Md9nzsuHPzuvKpyQ\\nrtZ0p11PtSUJ9se6mUaoej9BFXmYgiMWkbZxqLXLWjN3rCiDzVufgkBO7UKPmBzv\\nbD5QmDoQBLGbZFIrvJLKUT07cePYscAH4wxYTurKX3hRenOjuJSthFkABUoesRG4\\nF/HyN6g0iST6seNtjsA9UZEeMtO38TWWJ90idyW+lw8CAwEAATANBgkqhkiG9w0B\\nAQsFAAOCAYEAb4vr2CknyMtT7XFvVq32adLn4biU2lR8JPrEsWsmjRA37EL33AON\\n8EInUPHTm2TdeNXazEyxPjJPi4CVfx/tOoENKM5ine1P2+7nDtMI/P1CsJQvPKpc\\nazZdF7i6I4+1vIDfx1c+gp03U4fCCwNpt2fAda5u4IoLp8GVGQxBihXM62CvY3rz\\nFGVWljhrpePIWrTRR+5Y00IlYmTUGGE3P+mOyE3G0kf79rOKNh7eKdvvBWe1jJdC\\nrcNfru0VAlhwD0cJnWf5+CvKfzJU12OjxPQiu74Lx0+EAU7wwsekvM9XdUJetar2\\n/I/XO4oMoIDO51THMVbom+kMpfi3Hx5Lb0LzFYPjOJGgs+AOWXlj+ajmwT/D4H7n\\nxrljb88TO9brCx2dKUJ8Na2U4eRFPXB+Zdiux8HBwskWRQNRcFuTrIAcpYsBmEIv\\npCExcSrn/5RNniw/d09a4vbBH8YUlhU7RnGH6cfq0wUDA0GeuyHiltRMDBbSXUHx\\nJ/QsK3Jyxu5o\\n-----END CERTIFICATE-----\\n", "bnonceSignature": {"__value__": "gmMJb4sxSl8MIer6AJXFgNinoD+NC2gqloJcMRHPQN+4nQvDEfYaacY3HdbEOB+4yQLPTZr52C44Mt34co2AbZxeWNs9/KEztihQsYkJA86uKcLKM1+DAef8UugB1oQFc2BJHWMmNwNmVoGgkHzZ38fdQC1BWPtv2PHfu2yH+DvKe0KbnsAR387UAArmThh+9nNTlR4jHd48QJsWaR1A0ns/AI3FXau748ei0Dm2BIEn76d6GicQYdFCyEg+/VaPx3UaONVbx5eSFQHw0a8gguNHCRSUoiNpYcnoCUuErgTIRclEeuiJUbLqNjhoyzKrxrYSNWZvuyd1NpV+zqi/WdS1KGsNVWbA4CLAMFWIvjVuoJqGdKsYw9HvhwcTit1deUNf1kB3cTNZIb+fauILqhft3jwUwgBDPYzHpdHDOYJlEMrUPRMGdRAc6wUX3/a+/UnIvncCUSWdmQahWtOXxN8CLgINH5+TDSu6oWSRiWM38CI83eKbsFShpf0a2QWR", "__class__": "bytes"}, "bnonce": "{\\"c2\\": {\\"msg\\": \\"{\\\\\\"ALG\\\\\\": 0, \\\\\\"IV\\\\\\": \\\\\\"xBQYG7pRIoQ1F1Q83fFNWQ==\\\\\\", \\\\\\"CipherText\\\\\\": \\\\\\"lG8KhtQGN+XKQeEsS9/AihpNvljGtMcCwlHQ+vSmGUA=\\\\\\", \\\\\\"MODE\\\\\\": 2}\\", \\"alg\\": \\"HMAC_SHA2\\", \\"digest\\": \\"504c9cb54e3a97cea13f7eb2960136f4a0885dd72cc0456702a5bdd241742524\\"}, \\"c1\\": {\\"C0\\": {\\"__pairingCurve__\\": \\"SS512\\", \\"__value__\\": \\"3:KsH5IcV8GdzjRYaRgOLiFS87gLlPpDYvAtEhI8JycrzZlMeTZH5Ttr/PixcHXFlgogsKEMuWU6g9fwtMKoheH11ApCFIYk0PKq3jU9MOSvBq6sG/Q+FnnHHQag4H3KHzJdQyQeVkYdYdc/Rp1gWBEeqcDKccb+jOkx3foCskaYQ=\\", \\"__class__\\": \\"pairing.Element\\"}, \\"C3\\": {\\"MONCALAMARIEXPEDIA.COM.SPENDINGLIMIT.LEVEL3\\": {\\"__pairingCurve__\\": \\"SS512\\", \\"__value__\\": \\"1:dpfoQB+0NlfDdyNvv4yONeilNUsojYd3s30Y1HWug5AM5mde+GGGcjzmp8wgFvamCnVQhUBEWI5oilOTIFfSHAA=\\", \\"__class__\\": \\"pairing.Element\\"}, \\"GLOBAL.PAYMENT.VISA\\": {\\"__pairingCurve__\\": \\"SS512\\", \\"__value__\\": \\"1:ccAdPX83rtXJg2P1TGCbJ8r4TnpLYkNFTAZaHnP3i68NJZh1LFsgUbXsRxSbHFF4aQtxisG7Oy/Y0S+VwynKzwE=\\", \\"__class__\\": \\"pairing.Element\\"}, \\"MONCALAMARIEXPEDIA.COM.SPENDINGLIMIT.LEVEL2\\": {\\"__pairingCurve__\\": \\"SS512\\", \\"__value__\\": \\"1:nWDj6YctT4dVH51Flv2kmqppRksGcKDLnMT/BOYZg3vOluUD5BibEo2MASP8c9QMwrfkAR31pMKkmQ5ICcchHAA=\\", \\"__class__\\": \\"pairing.Element\\"}}, \\"policy\\": \\"(moncalamariexpedia.com.spendinglimit.level2 OR moncalamariexpedia.com.spendinglimit.level3) AND global.payment.visa\\", \\"C1\\": {\\"MONCALAMARIEXPEDIA.COM.SPENDINGLIMIT.LEVEL3\\": {\\"__pairingCurve__\\": \\"SS512\\", \\"__value__\\": \\"3:j4jPjvnI+Dl2s3J8GoavXErStU9QCHOkSC7MAkKxxrQJymVWeTnA3znarM1sASXgPJPRTJIaRnWhkY7Bdvzu0IUGhkLx7ozYA2v7ARDEKyTfUlhfj4pYyKpwcQIhZdVw4KgEHQPE9QppAlJCrybFG6ZHJ90AbCj1EpvLIpB5eQ8=\\", \\"__class__\\": \\"pairing.Element\\"}, \\"GLOBAL.PAYMENT.VISA\\": {\\"__pairingCurve__\\": \\"SS512\\", \\"__value__\\": \\"3:ICp6tJdTJIi7Prp5rUmAcyIbHjRGOt85XiVodn5sYeGgWjV71xRcM8F94fJC+yYJMrI+WUva/r6j9qWfmg1hzG7TAOBaGC5pXCiNf6SRwMI4/Nlc0UCmeV35i8Tzyj7ciwIqWoXi23DokuxPpa3sUjiVOgnHl5qevvdMvGjfYDI=\\", \\"__class__\\": \\"pairing.Element\\"}, \\"MONCALAMARIEXPEDIA.COM.SPENDINGLIMIT.LEVEL2\\": {\\"__pairingCurve__\\": \\"SS512\\", \\"__value__\\": \\"3:imiL9hJzgv4+fU0kX9cBJH9WtdgJbfKg3ZtF95FbC4uE3CPDDPp8Nu8AQhK2guDqQzjmJybSxgEJB98fi4EmTFJhWLQJx0ou7vCvv3RXBEBDnus4WCDvvmL/ddmZIxmH/A8K1Eh5Ju+E3gSdux/drHCFbag5Ge5m/8IIp0skDOA=\\", \\"__class__\\": \\"pairing.Element\\"}}, \\"C2\\": {\\"MONCALAMARIEXPEDIA.COM.SPENDINGLIMIT.LEVEL3\\": {\\"__pairingCurve__\\": \\"SS512\\", \\"__value__\\": \\"1:WJecLP2Xc1HieJpo8LZSD8cscMttYxQtm9YlDYK14OfCq0FcuckBCSwtpr+Vym1sf7JJFRxsGtWgGZ29jfgXuwA=\\", \\"__class__\\": \\"pairing.Element\\"}, \\"GLOBAL.PAYMENT.VISA\\": {\\"__pairingCurve__\\": \\"SS512\\", \\"__value__\\": \\"1:h7gxup3T8t52bSyHj7la9a12vAbTRVVCtbOVJXfuq3FahsYMlkU+4lj7ukf35bGrsyLH7opTKL/PuOhgu/6jEAA=\\", \\"__class__\\": \\"pairing.Element\\"}, \\"MONCALAMARIEXPEDIA.COM.SPENDINGLIMIT.LEVEL2\\": {\\"__pairingCurve__\\": \\"SS512\\", \\"__value__\\": \\"1:kkeE8PNFCuincDxokcRlmTUS6YUM2sg3HjVPlRWWI4uafVAALPGsZIQcrYaVoiXM7CDM2Q3F8HQvnYdWX4LtUQE=\\", \\"__class__\\": \\"pairing.Element\\"}}}}"}'
+Location Server: waiting for KEi, Ni.
+User agent: received BNONCE payload. Now verify signature and attempt decrypting...
+User agent: BNONCE signature is valid.
+User agent: BNONCE to decrypt is:
+ {'c2': {'msg': '{"ALG": 0, "IV": "xBQYG7pRIoQ1F1Q83fFNWQ==", "CipherText": "lG8KhtQGN+XKQeEsS9/AihpNvljGtMcCwlHQ+vSmGUA=", "MODE": 2}', 'alg': 'HMAC_SHA2', 'digest': '504c9cb54e3a97cea13f7eb2960136f4a0885dd72cc0456702a5bdd241742524'}, 'c1': {'C0': [2239402860879442556147213421385183441028152865652431888721857114508371879263228988659768491774678445231539998177382929061840039228165097356551496894275103, 4884029954372556557408600312413870095304774707292582842246130830157570224580692008101630408327406786186597245339346733998479656408448757608501860100237700], 'C3': {'MONCALAMARIEXPEDIA.COM.SPENDINGLIMIT.LEVEL3': [6211239698638351765714928161359135097367791995251289145464496690533948478616418193840519253357357460716455250771459464001391772486469861387501687274983964, 2669098221549043710904923167074256326497860566043717717753167375076993300940194013339156226448676321666676266285446717087454089715962076380843085453180648], 'GLOBAL.PAYMENT.VISA': [5957594274210209670847052914648702327326560379175361963242591552115953365384535432541789762232182907402177609787696847088088164550560957442638863493876431, 7440670835928460121470753374552464901222298925391063653118969288674741761015489714338583699968458463495854500704944130061049354851716539452974607313778841], 'MONCALAMARIEXPEDIA.COM.SPENDINGLIMIT.LEVEL2': [8242579690750046334910517033324043721370932700926640991927637074578321338133201393422120443846348697020476630324617278092782743009598602893994706195652892, 5816851032585551904259945253318211091021087109447855586664403605235942967825916565618458888577289749922179315000207355986077120403199830379114102122796308]}, 'policy': '(moncalamariexpedia.com.spendinglimit.level2 OR moncalamariexpedia.com.spendinglimit.level3) AND global.payment.visa', 'C1': {'MONCALAMARIEXPEDIA.COM.SPENDINGLIMIT.LEVEL3': [7517507405066923540640641846133199393550885255786240483379069983966129894394975054295680525781677087958211150856293007655272961235777752391739798175149776, 6967110032528822032772222169208661647458249652792802474326388653497879888360315662783082799947801429981905396841219143020842035866004991752118426085718287], 'GLOBAL.PAYMENT.VISA': [1684666703799318835725077998975244513481956564600265227543335358406679865608369603368460454683222389373408247397557923870850554751000677587381823606710732, 5804336008909156911932529919241878432999079056137534491991686702680509402170220027359822732245920650861861893207165281381148132521544394224839546892148786], 'MONCALAMARIEXPEDIA.COM.SPENDINGLIMIT.LEVEL2': [7249035353661564233880228892030813464755235474167496457470380788191628008426366290028738684446139571603419271400953881515395720670392764240450705277658700, 4314604296905431031338125228605234132480472236518076231146431661727186092664197861519172230157868601977638031971290882680393492301464245688648683204381920]}, 'C2': {'MONCALAMARIEXPEDIA.COM.SPENDINGLIMIT.LEVEL3': [4639951410379208991885138688296385631413855069942483560019251869386205892462794943564174847360382134039122679703360990035098593453470383329548037114042299, 8572550487905765442291334878209693826324177978513783166110723680271580663377509460130380704840658106105805150608890570357762897460092845564340402766596506], 'GLOBAL.PAYMENT.VISA': [7108207446830123432901386102187614161248020274195785185298073970395366059160863745560916633694794348954249485969241919898808544883828710180693419258454800, 7540331606958456288225341170202444719920123767231808962124807925453867220354720176060929016154047618553153817796441742998020548823529735069207034299482578], 'MONCALAMARIEXPEDIA.COM.SPENDINGLIMIT.LEVEL2': [7661272373181101931382828141580742159666671933499373187709271219810431878913050854294399567379710762527617823278282177978549089616703290799228255220198737, 873558608634642322017430982530696786395107591557643501154996451552473415331385087923597796177220069233981229631187264921230418271994755443157917444718345]}}}
+User agent: BNONCE decryption successful.
+User agent: BNONCE_RECEIVED.
+User agent: processing state:  State.BROADCAST_ECDHE_SEND_KEI_NI
+User agent: processBroadcastEcdheSendKeiNi.
+User agent: sending KEi, Ni...
+user.agent  simulator, send raw message:
+ b'\x00\x00\x01(\xa0\xec+D\xbd\xd1\x97M\xf8\xfe\x8dB\xc2\x07C\xdf(k\x00\x00\x00\x00\x00\x00{"kei": {"__pairingCurve__": "SS512", "__value__": "1:eMSGSOwppFZgbT1YCqjfEUORTsAjpULZj66b17j/I4d5Gaz/BM84/1Mhlx8DU1ozfVrdv6LtJmDUiQVERZ7c3QE=", "__class__": "pairing.Element"}, "ni": {"__value__": "/h6it+64BcTEEzfCD9rBWoJP0Z0dgXg+efiTKtV7WTY=", "__class__": "bytes"}}'
+Location Server: received KEi, Ni.
+User agent: KEi, Ni sent. Waiting for KEr, Nr...
+Location Server: KEI_NI_RECEIVED, variables set.
+Location Server: processing state:  State.BROADCAST_ECDHE_SEND_KER_NR
+Location Server: sending KEr, Nr.
+location.service.agent  simulator, send raw message:
+ b'\x00\x00\x01(\xa0\xec+D\xbd\xd1\x97M\xf8\xfe\x8dB\xc2\x07C\xdf\x00k\x00\x00\x00\x00\x00\x02{"ker": {"__pairingCurve__": "SS512", "__value__": "1:lo7fi0FvZj2YdCNYUomc+Rq7qxxlnDaTsNWzGfpCx7vwnVVzbYEIQc2H+QrIHzmmX/PJY4Hton+R5IYgvaST/gA=", "__class__": "pairing.Element"}, "nr": {"__value__": "i/wrC/mZ2cbMNv8JqeCT6rP8PskhqSvtx9AdHFoHKw8=", "__class__": "bytes"}}'
+User agent: received KEr, Nr.
+Location Server: proceeding to compute shared secrets.
+User agent: proceeding to compute shared secrets.
+location.service.agent : computeEcdheSecrets.
+user.agent : computeEcdheSecrets.
+location.service.agent : sharedSecret:  [4882016809582429545045739588912407742055416766961060065109033402997205257350383884304808466793196096126535736168282788609100428843368277529384519075342308, 4830558898535945612669247168013711363701101464356480148237811222624408092845493789046268992089912719847697251814820916256609758411434659091939344497969047]
+user.agent : sharedSecret:  [4882016809582429545045739588912407742055416766961060065109033402997205257350383884304808466793196096126535736168282788609100428843368277529384519075342308, 4830558898535945612669247168013711363701101464356480148237811222624408092845493789046268992089912719847697251814820916256609758411434659091939344497969047]
+location.service.agent : keyMaterial:  b'Q(DYor"\xf2\xb8\xefB\x9d\xf4\x9b\x1e sU\xdf\xe8\xd0f\xbb2\xc9@\x9b\xb1\xcc\xb6\xb2\xf8{W\xc1y\\\x7f\xa8\xfe\xb0\xf6(\x0e\xb4t?n\xcf.\x7fEY\x9c\x99\x95\xa336\xb5\xd5\xa0\xd3&y\x86\x12\xce\xf1\x93\xc0\x87\xf2\x94\xfe\x84\x86\xef\xb7#\xa2\x1c\xbe\xfe\x9d\xb0\xc8\x08d\xe3\x03<T4[\x82\xaasI\xfa\x8b\x190\x149\xc5\x1e3\xfc\x82\x11\x98V\xd0\xd2[\x99z\x96@\xf2\xcaLH\xdf\xb0\xa2\x0f-E\xa5lw\x82\xd0\\Wb\x9d\x92\x9ag\'Y\xa7\x12\xfc\xcfg\x9a\xce\x11*\xcd>D\xaes\xa9,D\xdfC\xf0\xfd\rL]\xe6\x84\x9cN\xd8\xceo\x8b\xfb\x96C\x96\x89\x0eM\xd1\xf7\xfd5\xdb\xfc\x00O(\x9c=\xf0\xb2\x84\x8c\xa7\x1b&u\xe4S?\xf7\x8a\xccU\x1a\x84\x15o\xa0\xf6\xd3\xc7\x8c\xecw\xa5@\x83\xdcl\xddW\xeb<n\xf1(\xc0L\xcbw6\xcb\xbf7,!\xb1\x18\xce\xe3n\xf7\x00\xc2\x84~\xea\xe6\xe7\xf6'
+user.agent : keyMaterial:  b'Q(DYor"\xf2\xb8\xefB\x9d\xf4\x9b\x1e sU\xdf\xe8\xd0f\xbb2\xc9@\x9b\xb1\xcc\xb6\xb2\xf8{W\xc1y\\\x7f\xa8\xfe\xb0\xf6(\x0e\xb4t?n\xcf.\x7fEY\x9c\x99\x95\xa336\xb5\xd5\xa0\xd3&y\x86\x12\xce\xf1\x93\xc0\x87\xf2\x94\xfe\x84\x86\xef\xb7#\xa2\x1c\xbe\xfe\x9d\xb0\xc8\x08d\xe3\x03<T4[\x82\xaasI\xfa\x8b\x190\x149\xc5\x1e3\xfc\x82\x11\x98V\xd0\xd2[\x99z\x96@\xf2\xcaLH\xdf\xb0\xa2\x0f-E\xa5lw\x82\xd0\\Wb\x9d\x92\x9ag\'Y\xa7\x12\xfc\xcfg\x9a\xce\x11*\xcd>D\xaes\xa9,D\xdfC\xf0\xfd\rL]\xe6\x84\x9cN\xd8\xceo\x8b\xfb\x96C\x96\x89\x0eM\xd1\xf7\xfd5\xdb\xfc\x00O(\x9c=\xf0\xb2\x84\x8c\xa7\x1b&u\xe4S?\xf7\x8a\xccU\x1a\x84\x15o\xa0\xf6\xd3\xc7\x8c\xecw\xa5@\x83\xdcl\xddW\xeb<n\xf1(\xc0L\xcbw6\xcb\xbf7,!\xb1\x18\xce\xe3n\xf7\x00\xc2\x84~\xea\xe6\xe7\xf6'
+location.service.agent : created shared secrets.
+Location Server: SHARED_SECRETS_COMPUTED.
+user.agent : created shared secrets.
+User agent: SHARED_SECRETS_COMPUTED.
+Location Server: processing state:  State.TIER1_PRIVACY_AUTHENTICATION
+User agent: processing state:  State.TIER1_PRIVACY_AUTHENTICATION
+Location Server: processTier1PrivacyAuthentication.
+Current messageContainer:
+User agent: processTier1PrivacyAuthentication.
+ {'signedOctetsKerNrRawMessage': b'\x00\x00\x01(\xa0\xec+D\xbd\xd1\x97M\xf8\xfe\x8dB\xc2\x07C\xdf\x00k\x00\x00\x00\x00\x00\x02{"ker": {"__pairingCurve__": "SS512", "__value__": "1:lo7fi0FvZj2YdCNYUomc+Rq7qxxlnDaTsNWzGfpCx7vwnVVzbYEIQc2H+QrIHzmmX/PJY4Hton+R5IYgvaST/gA=", "__class__": "pairing.Element"}, "nr": {"__value__": "i/wrC/mZ2cbMNv8JqeCT6rP8PskhqSvtx9AdHFoHKw8=", "__class__": "bytes"}}', 'signedOctetsIdrPayload': b'{"uuid": "10caa7h0-5e12-71ce-010c-a7hebeac0140", "service": "LOCAUTH Service"}', 'signedOctetsKeiNiRawMessage': b'\x00\x00\x01(\xa0\xec+D\xbd\xd1\x97M\xf8\xfe\x8dB\xc2\x07C\xdf(k\x00\x00\x00\x00\x00\x00{"kei": {"__pairingCurve__": "SS512", "__value__": "1:eMSGSOwppFZgbT1YCqjfEUORTsAjpULZj66b17j/I4d5Gaz/BM84/1Mhlx8DU1ozfVrdv6LtJmDUiQVERZ7c3QE=", "__class__": "pairing.Element"}, "ni": {"__value__": "/h6it+64BcTEEzfCD9rBWoJP0Z0dgXg+efiTKtV7WTY=", "__class__": "bytes"}}'}
+Current messageContainer:
+ {'signedOctetsKerNrRawMessage': b'\x00\x00\x01(\xa0\xec+D\xbd\xd1\x97M\xf8\xfe\x8dB\xc2\x07C\xdf\x00k\x00\x00\x00\x00\x00\x02{"ker": {"__pairingCurve__": "SS512", "__value__": "1:lo7fi0FvZj2YdCNYUomc+Rq7qxxlnDaTsNWzGfpCx7vwnVVzbYEIQc2H+QrIHzmmX/PJY4Hton+R5IYgvaST/gA=", "__class__": "pairing.Element"}, "nr": {"__value__": "i/wrC/mZ2cbMNv8JqeCT6rP8PskhqSvtx9AdHFoHKw8=", "__class__": "bytes"}}', 'signedOctetsIdrPayload': b'{"uuid": "10caa7h0-5e12-71ce-010c-a7hebeac0140", "service": "LOCAUTH Service"}', 'signedOctetsKeiNiRawMessage': b'\x00\x00\x01(\xa0\xec+D\xbd\xd1\x97M\xf8\xfe\x8dB\xc2\x07C\xdf(k\x00\x00\x00\x00\x00\x00{"kei": {"__pairingCurve__": "SS512", "__value__": "1:eMSGSOwppFZgbT1YCqjfEUORTsAjpULZj66b17j/I4d5Gaz/BM84/1Mhlx8DU1ozfVrdv6LtJmDUiQVERZ7c3QE=", "__class__": "pairing.Element"}, "ni": {"__value__": "/h6it+64BcTEEzfCD9rBWoJP0Z0dgXg+efiTKtV7WTY=", "__class__": "bytes"}}'}
+
+
+MitM Attack Mode: Mallory here, impersonating user agent (Bob). Attempting to replay AUTH_TIER1_i...
+
+
+User agent: authTier1i:  b'\xb9hHl\xad\x9a\xf4\xb4\x91}\xa5\x91\xf8^\x86\x0c\x0fa\x00A*\x8e\x02\xcd\xb0\xd7\xae\xdb\xde\x9e\xe6\xc9' 
+Length:  32
+user.agent  simulator, send encrypted message: plaintext is:
+ {'authTier1i': b'\xb9hHl\xad\x9a\xf4\xb4\x91}\xa5\x91\xf8^\x86\x0c\x0fa\x00A*\x8e\x02\xcd\xb0\xd7\xae\xdb\xde\x9e\xe6\xc9'}
+location.service.agent : receiveEncryptedMessage dict:
+user.agent  simulator, send encrypted raw message:
+ {'rawMessage': b'\x00\x00\x01v\xa0\xec+D\xbd\xd1\x97M\xf8\xfe\x8dB\xc2\x07C\xdf(1\x00\x00\x00\x00\x00\x01{"msg": "{\\"ALG\\": 0, \\"IV\\": \\"jjWktWgR1NXEg1Yi99LX1w==\\", \\"CipherText\\": \\"sNGvtoEh0q8LpSVxomv/eF1xJEWn8y2vOn7ZbD2tLO3i8/5oAzihY24clL8KJNiY5iNyQttD5IzwbHS5g3++DOJ1MRMQUMlDqqNPismFA49dLHUhva9Qd+93GDj2RlImL6QYr+kam37qoFWfl+R9Vg==\\", \\"MODE\\": 2}", "alg": "HMAC_SHA2", "digest": "b0e434a8bb95ce357296a6d026eb9c8453cc47ace0f55e844dbd59171d2ee79d"}', 'header': {'counter': 1, 'sender': True, 'exchange_type': b'1', 'length': 374, 'spir': b'\xf8\xfe\x8dB\xc2\x07C\xdf', 'message_type': True, 'spii': b'\xa0\xec+D\xbd\xd1\x97M'}, 'authTier1i': b'\xb9hHl\xad\x9a\xf4\xb4\x91}\xa5\x91\xf8^\x86\x0c\x0fa\x00A*\x8e\x02\xcd\xb0\xd7\xae\xdb\xde\x9e\xe6\xc9'}
+ b'\x00\x00\x01v\xa0\xec+D\xbd\xd1\x97M\xf8\xfe\x8dB\xc2\x07C\xdf(1\x00\x00\x00\x00\x00\x01{"msg": "{\\"ALG\\": 0, \\"IV\\": \\"jjWktWgR1NXEg1Yi99LX1w==\\", \\"CipherText\\": \\"sNGvtoEh0q8LpSVxomv/eF1xJEWn8y2vOn7ZbD2tLO3i8/5oAzihY24clL8KJNiY5iNyQttD5IzwbHS5g3++DOJ1MRMQUMlDqqNPismFA49dLHUhva9Qd+93GDj2RlImL6QYr+kam37qoFWfl+R9Vg==\\", \\"MODE\\": 2}", "alg": "HMAC_SHA2", "digest": "b0e434a8bb95ce357296a6d026eb9c8453cc47ace0f55e844dbd59171d2ee79d"}'
+User agent: AUTH_TIER1i sent:
+Location Server: authTier1i:  b'\xb8\x8bX\xcc\x9b\r\x87F\x14\xd1\xb8\x92\xee\xd4\xb9M\xa2Zx\xd2\xd8s\xdd\x1fVr\x11\xe6\x1b\x97\xe5\x96' 
+Length:  b'\x00\x00\x01v\xa0\xec+D\xbd\xd1\x97M\xf8\xfe\x8dB\xc2\x07C\xdf(1\x00\x00\x00\x00\x00\x01{"msg": "{\\"ALG\\": 0, \\"IV\\": \\"jjWktWgR1NXEg1Yi99LX1w==\\", \\"CipherText\\": \\"sNGvtoEh0q8LpSVxomv/eF1xJEWn8y2vOn7ZbD2tLO3i8/5oAzihY24clL8KJNiY5iNyQttD5IzwbHS5g3++DOJ1MRMQUMlDqqNPismFA49dLHUhva9Qd+93GDj2RlImL6QYr+kam37qoFWfl+R9Vg==\\", \\"MODE\\": 2}", "alg": "HMAC_SHA2", "digest": "b0e434a8bb95ce357296a6d026eb9c8453cc47ace0f55e844dbd59171d2ee79d"}'
+ 32
+Location Server: authTier1iLocal type:  <class 'bytes'> b'\xb8\x8bX\xcc\x9b\r\x87F\x14\xd1\xb8\x92\xee\xd4\xb9M\xa2Zx\xd2\xd8s\xdd\x1fVr\x11\xe6\x1b\x97\xe5\x96'
+Location Server: authTier1iReceived type:  <class 'bytes'> b'\xb9hHl\xad\x9a\xf4\xb4\x91}\xa5\x91\xf8^\x86\x0c\x0fa\x00A*\x8e\x02\xcd\xb0\xd7\xae\xdb\xde\x9e\xe6\xc9'
+Location Server: AUTH_TIER1 values differ.
+Location Server: INVALID_TIER1_PAYLOAD
+Location Server: processing state:  State.CLOSE_CONNECTIONS_AND_EXIT
+Location Service: close connection and exit
+location.service.agent : Active threads before cleaning up:  2
+Location Server: Simulation finished.
+User agent: State.TIER1_PRIVACY_AUTHENTICATION: header or payload error/invalid.
+User agent: processing state:  State.CLOSE_CONNECTIONS_AND_EXIT
+User agent: close connection and exit
+user.agent : Active threads before cleaning up:  1
+User agent: Simulation finished.
+Simulation concluded.

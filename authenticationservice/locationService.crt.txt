@@ -1,0 +1,64 @@
+Certificate:
+    Data:
+        Version: 1 (0x0)
+        Serial Number: 888 (0x378)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=US, ST=Delaware, L=Newark, O=PristineTechLocker, OU=PristineTechLocker, CN=nebula
+        Validity
+            Not Before: Aug 13 23:08:36 2015 GMT
+            Not After : Aug 10 23:08:36 2025 GMT
+        Subject: C=US, ST=Delaware, L=Newark, O=PristineTechLocker, OU=PristineTechLocker, CN=nebula
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (3072 bit)
+                Modulus:
+                    00:e0:26:22:9a:84:a2:cf:4a:a6:9e:08:f8:f2:4f:
+                    06:37:f1:6a:bc:18:a1:87:b1:c5:88:10:6a:b4:67:
+                    15:a4:bd:57:dd:e4:ae:ba:62:64:ac:47:aa:1f:2d:
+                    16:37:4b:1f:0b:93:7b:c8:ae:14:ef:d5:52:9b:84:
+                    0b:de:a4:67:d0:22:6e:ba:e0:d5:12:37:54:5d:80:
+                    fd:c5:67:a3:f3:18:63:0f:e8:f2:db:f3:bc:10:97:
+                    03:3c:b9:a2:15:36:1e:72:4e:e5:31:ae:4e:7e:7c:
+                    96:6c:6a:1d:0e:4f:55:22:7a:67:05:82:66:c2:72:
+                    3d:a9:7c:c5:43:45:07:35:fa:ed:2b:7a:cc:8e:dd:
+                    27:5b:25:0b:6b:0b:aa:80:4b:64:4c:31:1b:2a:9a:
+                    a7:47:74:d8:d7:13:cb:43:c1:72:c4:c5:a6:59:27:
+                    af:1d:a9:e4:e5:85:52:6e:6d:bf:d1:60:0f:a0:3e:
+                    fe:ef:62:cb:97:1d:bd:cd:ea:f5:7a:60:7a:e3:17:
+                    66:8f:87:84:c4:02:87:86:40:7a:4c:7b:f1:65:88:
+                    66:e2:ae:76:41:86:47:17:8c:48:77:06:fa:62:e2:
+                    5a:ec:7b:bf:df:74:a9:d7:d3:40:4a:05:ab:3c:b0:
+                    01:c7:2f:27:57:0e:a9:ea:8a:36:33:2a:22:0d:05:
+                    59:be:7f:46:c3:e8:36:71:07:1f:d3:53:7e:de:1e:
+                    bd:f8:9f:4b:cd:ab:56:ee:a2:5b:09:cf:e2:e5:57:
+                    c7:e3:af:52:09:23:ca:b8:82:5f:a7:fd:e4:89:ec:
+                    52:67:c9:64:ac:08:e0:51:a8:96:0b:b3:8d:30:07:
+                    f4:0e:1b:ac:a3:67:d6:e5:87:62:4c:30:67:ee:81:
+                    49:93:71:0c:9f:24:80:61:0c:79:4d:c5:06:fd:06:
+                    b6:ed:e4:cc:58:46:ac:e1:58:4b:a4:93:bf:d2:ff:
+                    7e:74:2e:fe:4f:c1:fd:a2:04:d3:ee:89:57:4f:26:
+                    d5:1b:a9:18:56:52:55:a7:da:11
+                Exponent: 65537 (0x10001)
+    Signature Algorithm: sha256WithRSAEncryption
+         20:fa:c2:41:29:5f:de:fb:46:ee:a6:87:1d:b7:76:5f:05:27:
+         93:91:2f:ad:70:57:d5:10:ae:86:79:cb:23:51:79:92:0f:2b:
+         ad:bb:ea:ed:52:ba:62:c8:cc:74:5d:3c:2e:fe:1c:f2:0c:07:
+         de:44:f7:30:53:29:bf:dc:3c:c1:cc:66:9e:f1:8d:70:df:e3:
+         a9:54:d8:3c:cd:8d:69:3b:15:57:28:88:e3:12:53:cf:48:53:
+         2e:50:47:41:50:da:de:6e:10:c5:86:f2:eb:c0:69:57:f3:88:
+         22:19:17:b6:3c:31:65:31:bf:b0:76:0b:0b:9a:e3:1b:54:b3:
+         bd:e6:3a:0c:b2:e5:97:a5:a2:d5:9e:84:30:7b:c0:94:ea:a5:
+         85:3e:c4:02:d8:3a:36:36:e1:fc:6a:2f:f8:ab:cc:f8:7e:4e:
+         87:54:49:b2:2c:bd:93:06:a9:85:f7:d3:40:c2:6c:68:d7:7a:
+         c0:ee:38:71:c1:4a:86:25:dd:97:64:8d:ec:b1:54:ef:ae:41:
+         bc:aa:05:a1:31:06:fe:4b:93:e4:b7:86:e4:ef:43:a6:68:8d:
+         10:17:d3:b5:ff:2a:c6:93:20:8b:3c:d1:6c:77:52:06:c6:a9:
+         2a:f4:f7:dc:1a:4a:5b:f7:c4:e4:1b:fd:f0:5a:1a:31:fb:a0:
+         53:6b:f2:32:ce:95:19:e6:63:fd:dc:dc:17:43:91:da:33:09:
+         18:d1:7d:be:99:79:92:4d:7f:c3:98:df:c9:25:43:77:3f:08:
+         7a:13:ed:d7:7a:d2:73:d3:33:28:57:d3:ec:c8:9b:21:ea:d7:
+         02:ee:7b:26:0d:05:4f:7f:a5:bf:01:a3:02:e8:16:59:5e:2f:
+         83:50:d8:6f:bd:94:43:68:b9:a7:5b:54:21:d3:42:06:ac:09:
+         99:d7:15:2f:cf:84:51:1b:92:7d:d7:52:b3:94:af:35:a8:25:
+         32:d8:9d:52:c1:70:56:f9:c0:ed:c9:e3:07:0f:ad:71:53:db:
+         a9:d6:26:42:ec:a0

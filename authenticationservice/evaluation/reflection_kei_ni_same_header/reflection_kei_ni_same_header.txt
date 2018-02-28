@@ -1,0 +1,90 @@
+Simulation starting...
+Registering keys of keyType:  Password Hash (KDF)
+Registering keys of keyType:  Shared Key
+Registering keys of keyType:  Fingerprint
+Registering keys of keyType:  PIN
+Registering keys of keyType:  Pattern
+Registering keys of keyType:  Face
+Registering keys of keyType:  Iris
+Location Server: runProtocol.
+User agent: runProtocol.
+Location Server: processing state:  State.START_IDLE
+Location Server: processStartIdle.
+Location Server: processStartIdle. Reset instance variables.
+User agent: processing state:  State.START_IDLE
+User agent: processStartIdle.
+Location Server: processing state:  State.LISTEN_FOR_CONNECTIONS
+location.service.agent : entering BNONCE scheduler...
+User agent: processStartIdle. Reset instance variables.
+Location Server: processListenForConnections.
+location.service.agent : BNONCE expired. Generating a new one...
+User agent: processing state:  State.CONNECT_TO_SERVICE
+self.agentObject =  <locationservice.LocationService object at 0x7fad9119a5f8>
+User agent: processConnectToService.
+Location Server: connection request received and accepted.
+User agent: connected to Location Service.
+Location Server: CONNECTION_REQUEST_ACCEPTED_CONNECTED.
+User agent: CONNECTED to Location Service.
+Location Server: processing state:  State.BROADCAST_ECDHE_ADVERTISEMENT_BLUETOOTH_LOCAUTH_ADVERTISEMENT
+User agent: processing state:  State.BROADCAST_ECDHE_ADVERTISEMENT_BLUETOOTH_LOCAUTH_ADVERTISEMENT
+Location Server: processBroadcastEcdheAdvertisementBluetoothLocauthAdvertisement.
+User agent: processBroadcastEcdheAdvertisementBluetoothLocauthAdvertisement.
+Location Server: about to send message at processBroadcastEcdheAdvertisementBluetoothLocauthAdvertisement.
+User agent: received proper Location Service advertisement. Setting SPIr.
+location.service.agent  simulator, send raw message:
+User agent: SERVICE_ADVERTISEMENT_DETECTED.
+User agent: processing state:  State.BROADCAST_ECDHE_RECEIVE_BNONCE
+ b'\x00\x00\x00j\x00\x00\x00\x00\x00\x00\x00\x00\x89\xc2,\x85J\xe9\xd2\x84\x00a\x00\x00\x00\x00\x00\x00{"uuid": "10caa7h0-5e12-71ce-010c-a7hebeac0140", "service": "LOCAUTH Service"}'
+User agent: processBroadcastEcdheReceiveBnonce.
+Location Server: finished Bluetooth service advertising.
+Location Server: processing state:  State.BROADCAST_ECDHE_BROADCAST_BNONCE
+Location Server: Broadcast BNONCE.
+location.service.agent : the Nb is:  b'ScsVFm1uyNXqtwHS6HtBMg=='
+Location Server: sending BNONCE...
+location.service.agent  simulator, send raw message:
+ b'\x00\x00\x14\xad\x00\x00\x00\x00\x00\x00\x00\x00\x89\xc2,\x85J\xe9\xd2\x84\x00b\x00\x00\x00\x00\x00\x01{"bnonce": "{\\"c1\\": {\\"policy\\": \\"(moncalamariexpedia.com.spendinglimit.level2 OR moncalamariexpedia.com.spendinglimit.level3) AND global.payment.visa\\", \\"C3\\": {\\"MONCALAMARIEXPEDIA.COM.SPENDINGLIMIT.LEVEL3\\": {\\"__pairingCurve__\\": \\"SS512\\", \\"__value__\\": \\"1:APguPbYj9exiM6xq+GRH3xdBKY/zGpGf5pXXi5JZFBRoYGNDxCXwcmGhKXntO8I2CzCgbT8Dy7uq1UPswSVY0gA=\\", \\"__class__\\": \\"pairing.Element\\"}, \\"MONCALAMARIEXPEDIA.COM.SPENDINGLIMIT.LEVEL2\\": {\\"__pairingCurve__\\": \\"SS512\\", \\"__value__\\": \\"1:YQW5oTLwz0yF8Br5n2S4PsZij+JQv7begKrP0vkf+oGU4FyXunKkJHvhqmOQREzVByBZx1vgjS04SITUpS3JKQE=\\", \\"__class__\\": \\"pairing.Element\\"}, \\"GLOBAL.PAYMENT.VISA\\": {\\"__pairingCurve__\\": \\"SS512\\", \\"__value__\\": \\"1:T/jhwytQUKKU5myJQ4anSIUE8uYhGRf/6fZJyVTj0Pg+/ZNQlVrWTnKQQ08Eh0O5t+/YwkwcH+f0SxBna6n3KAA=\\", \\"__class__\\": \\"pairing.Element\\"}}, \\"C1\\": {\\"MONCALAMARIEXPEDIA.COM.SPENDINGLIMIT.LEVEL3\\": {\\"__pairingCurve__\\": \\"SS512\\", \\"__value__\\": \\"3:T4kGtcnLAqIOXuKR9dmjlAeIREycud+wEnwuolPD4YZ8RN9VeWYfhjDzJ/oHMzeTk8zXvtehWRTmHx8sUGZJjSl0DAXfHSX/+ZZEnhm8spZfFNtJXYgaZsItzS+Hmur7gQ0Z/0hjN5zxtW7BNrWpCXi0xbOftuLczf+Qh7snwvs=\\", \\"__class__\\": \\"pairing.Element\\"}, \\"MONCALAMARIEXPEDIA.COM.SPENDINGLIMIT.LEVEL2\\": {\\"__pairingCurve__\\": \\"SS512\\", \\"__value__\\": \\"3:lpK6KZjhSNky+QqClPJk0igHqBqBgiNgUUXKybfPq48hNOQieXuuN+QqDKgnH4SrvgED1+Fk9x0V8xuNSj//BKPChRiOm9DNJQVn5sV9jvft58+hlFTJyc1BJQB8VqwnmEGz5H51POOupxnaZnWQX9t2sI8Ak9Fai1O4SWn1ciE=\\", \\"__class__\\": \\"pairing.Element\\"}, \\"GLOBAL.PAYMENT.VISA\\": {\\"__pairingCurve__\\": \\"SS512\\", \\"__value__\\": \\"3:GtDCfG34Am8Y9DsySxXoZ9c9iVsTJVd/AfMDeopD/qJl7IYQt0Vua++XAoVTA5c5UAtFbY5eRke2XnH4WLmPxSM8HeFJ83CbGrjhvLATzl9yvQ1dsWN40GxiORFsdn3pRp26vEp2RL1xGyw/KrkEdkxtaBYCLeW15xcBFF1fO7s=\\", \\"__class__\\": \\"pairing.Element\\"}}, \\"C0\\": {\\"__pairingCurve__\\": \\"SS512\\", \\"__value__\\": \\"3:gAC3v7wGYanHs/wNrn9tc0ygRGD/z30OgGwvrEY3QGHcKscHdYnqIwwtc5RfSrworSR9HuPoHSeSaQ7uyI22RF01KHEuCCyKXUR/4jsobgCIniFEqm8qfIcDtOAn1HYv7tqfrtv2+IEmx7uOVQU38XSXVYDc3VEdXszEHA4RqEo=\\", \\"__class__\\": \\"pairing.Element\\"}, \\"C2\\": {\\"MONCALAMARIEXPEDIA.COM.SPENDINGLIMIT.LEVEL3\\": {\\"__pairingCurve__\\": \\"SS512\\", \\"__value__\\": \\"1:V0z31ZuBkpOHriz0sZbQnpcq3DpBkUz5EDJHJ7Gip+ExierD0Zq4dTV0hfymtHcZNxjpVv/3L0VM79jsduiBqAE=\\", \\"__class__\\": \\"pairing.Element\\"}, \\"MONCALAMARIEXPEDIA.COM.SPENDINGLIMIT.LEVEL2\\": {\\"__pairingCurve__\\": \\"SS512\\", \\"__value__\\": \\"1:GlFnjbxSQkS209T1T2iIiES2t/jRl9UztXmNk6GhJpjSWePnWs0bQahR08EAYptldSOlIcYF59QkmQmMtc36PQE=\\", \\"__class__\\": \\"pairing.Element\\"}, \\"GLOBAL.PAYMENT.VISA\\": {\\"__pairingCurve__\\": \\"SS512\\", \\"__value__\\": \\"1:pZSUaUGCOzeNARS5IQazeE+m1r53G0iP1KNGgEyIzwgSygDqtyZvo2yydN/WF9YT2ACMJQBsrvG536/+ji7FGgA=\\", \\"__class__\\": \\"pairing.Element\\"}}}, \\"c2\\": {\\"digest\\": \\"23655ba55663b37b148dffb8e967848146a234b34467478e7e627d6560096d36\\", \\"alg\\": \\"HMAC_SHA2\\", \\"msg\\": \\"{\\\\\\"ALG\\\\\\": 0, \\\\\\"IV\\\\\\": \\\\\\"wtgDf5rL6Bti/EA/z5og9A==\\\\\\", \\\\\\"MODE\\\\\\": 2, \\\\\\"CipherText\\\\\\": \\\\\\"L1QSGoOyMGWkUMB7I2xJoooDj889SGaQlhm7n7e968g=\\\\\\"}\\"}}", "bnonceSignature": {"__value__": "PeG7LnS7xnQkNAJ25TyUdAZYKXHazJUbDG4rmc/inmvTUdlVWCi0XfPpRTuWk3qzX7HVuYx5atpMZbyNcf8scY/dG1tmnbuWUGBXDqbC2fVcE8AKcW0dswC21u7G2C8PcpCbHmrPE8pgEPahfDkQEr9KUar7bqIwjlKwtC9EyBVnxHNMGPQba2kh/o55hYwTyeWEy1+Ni9bH/9DXxjDg31bNLIdQUUuZ1aRtShjs/XVpF7HEo2wbCInWwAMzv6RlH9yKswZ4JTRPirx5yrKYypmTUImYYFeWcV00FetFkvU1rV3geg43R4h92zzYGSX0GBXCQ2YW4pkm6qZkWmh2fWHm1o0YJG4aqhzmKm+WnS+RVNjaAIhrF89q/OlKR4ABePBvX13WDTu0NuntsxfKV0iNDuxdsXJmr2gEh3oXpgTqaGWPnyhIgtSu+CzLSJ4IXg6agyJtsbKDFY4VJWNwTpqmtrLuSyPBs2XBtRHnkMBCkUd4kO9RseWz2tJ7awRc", "__class__": "bytes"}, "locationServiceCertificate": "-----BEGIN CERTIFICATE-----\\nMIIEhTCCAu0CAgN4MA0GCSqGSIb3DQEBCwUAMIGHMQswCQYDVQQGEwJVUzERMA8G\\nA1UECAwIRGVsYXdhcmUxDzANBgNVBAcMBk5ld2FyazEbMBkGA1UECgwSUHJpc3Rp\\nbmVUZWNoTG9ja2VyMRswGQYDVQQLDBJQcmlzdGluZVRlY2hMb2NrZXIxGjAYBgNV\\nBAMMEWxvdGhhbC12aXJ0dWFsYm94MB4XDTE3MDYxMzIwMDE0M1oXDTE4MDYxMzIw\\nMDE0M1owgYcxCzAJBgNVBAYTAlVTMREwDwYDVQQIDAhEZWxhd2FyZTEPMA0GA1UE\\nBwwGTmV3YXJrMRswGQYDVQQKDBJQcmlzdGluZVRlY2hMb2NrZXIxGzAZBgNVBAsM\\nElByaXN0aW5lVGVjaExvY2tlcjEaMBgGA1UEAwwRbG90aGFsLXZpcnR1YWxib3gw\\nggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDXZ5TswNp0UFPPbalnSqKt\\nG+UgvEa7N65Gs7CFJSYhz/8LtoZNuUaUZXU681vWimqcV8IU5fg8AXiWoTzZsJA+\\nYvKm1Ozr4hfcXVJ03J8T2eV3HmCE8n8obYLB+dbnBIa+yM6FxtnJreJx12q7SEHG\\npG2XlX2npHvbE++69864x18JEk2hG1Xc1TIsmhER4KLj99wiQQhhVlqqvjS44/pZ\\nqY4dVx0LOKVie8aOoPp8jkU4ZT4pAiTiUIE7u+JpuyxB6aFO8cEVFIgRyvWiH/QR\\nCulxRQRVxCfCoT0GUtDcy5bc4s8qoLJJBrq7peLHzyjhvG+3Md9nzsuHPzuvKpyQ\\nrtZ0p11PtSUJ9se6mUaoej9BFXmYgiMWkbZxqLXLWjN3rCiDzVufgkBO7UKPmBzv\\nbD5QmDoQBLGbZFIrvJLKUT07cePYscAH4wxYTurKX3hRenOjuJSthFkABUoesRG4\\nF/HyN6g0iST6seNtjsA9UZEeMtO38TWWJ90idyW+lw8CAwEAATANBgkqhkiG9w0B\\nAQsFAAOCAYEAb4vr2CknyMtT7XFvVq32adLn4biU2lR8JPrEsWsmjRA37EL33AON\\n8EInUPHTm2TdeNXazEyxPjJPi4CVfx/tOoENKM5ine1P2+7nDtMI/P1CsJQvPKpc\\nazZdF7i6I4+1vIDfx1c+gp03U4fCCwNpt2fAda5u4IoLp8GVGQxBihXM62CvY3rz\\nFGVWljhrpePIWrTRR+5Y00IlYmTUGGE3P+mOyE3G0kf79rOKNh7eKdvvBWe1jJdC\\nrcNfru0VAlhwD0cJnWf5+CvKfzJU12OjxPQiu74Lx0+EAU7wwsekvM9XdUJetar2\\n/I/XO4oMoIDO51THMVbom+kMpfi3Hx5Lb0LzFYPjOJGgs+AOWXlj+ajmwT/D4H7n\\nxrljb88TO9brCx2dKUJ8Na2U4eRFPXB+Zdiux8HBwskWRQNRcFuTrIAcpYsBmEIv\\npCExcSrn/5RNniw/d09a4vbBH8YUlhU7RnGH6cfq0wUDA0GeuyHiltRMDBbSXUHx\\nJ/QsK3Jyxu5o\\n-----END CERTIFICATE-----\\n"}'
+Location Server: waiting for KEi, Ni.
+User agent: received BNONCE payload. Now verify signature and attempt decrypting...
+User agent: BNONCE signature is valid.
+User agent: BNONCE to decrypt is:
+ {'c1': {'policy': '(moncalamariexpedia.com.spendinglimit.level2 OR moncalamariexpedia.com.spendinglimit.level3) AND global.payment.visa', 'C3': {'MONCALAMARIEXPEDIA.COM.SPENDINGLIMIT.LEVEL3': [50774508781061352105306120168190177342998521919882842955545359909809572822812842827838369378914553301534786116099372373411583283945595752611482228316370, 1223966390311384676413192385824044333765895941362235642537021692448246663774688804039960192987156583045620489147614254763695635023994175336918741366525770], 'MONCALAMARIEXPEDIA.COM.SPENDINGLIMIT.LEVEL2': [5081473507253826563485473384988646000167384795647147656934188575500675079493619736972819644622934778415037523036992627393721289883652784457756396925864233, 378503046914560870482879259481590509302013574108239281831622495650413627791858383629723240571090894008440222121703436206181708945560891758482560565819329], 'GLOBAL.PAYMENT.VISA': [4188483704788760969302319293700735737268509000139115585774029568637695063210192340307807620161319709221808120485861230009429020187431444391035337458710312, 5198205147933012581354344017132377532289451256311299643977330540181144875365867969287704739771377253590666295919132723384738871353806691994513636252654420]}, 'C1': {'MONCALAMARIEXPEDIA.COM.SPENDINGLIMIT.LEVEL3': [4165599497963825528991456967977392914090590741490751016143630375588124478675334391460924089332144568642692859875721956137357431830208376857930548168247693, 2171085929028129528491495081132637841648136247761578575895726235065312219239892884085638329547059266164939237728739533123727731952494986125970284757893883], 'MONCALAMARIEXPEDIA.COM.SPENDINGLIMIT.LEVEL2': [7886155923282724621640482380952353984132274996534132376000875367116827610158876137666553985181661818358697057309837003942925623716516202829025420838436612, 8576798932469502120382951584627126780007061955145329409471427675600604685394471597327241177234908610937406187807525675218953945639222679180406750556025377], 'GLOBAL.PAYMENT.VISA': [1404439997745263705141068880431559025085387554291632662528219012973627871412243118002414467031981971218213531213582202800862562501649026670032159917051845, 1845397834357893495891744646085756547184450343152034231566633756040872773987856315020733075149529103348629461075237596909763147182328592528287589965183931]}, 'C0': [6704050811194194932261649679595241962101850760512255667689770548231151026934630132583706389650732546855414380098307766055965567062352616009004544124892740, 4881680650962185047127545807926807534245008309283788969754260895765255625085228796205137354365065663166829162553931757386195599190165186732870511298193482], 'C2': {'MONCALAMARIEXPEDIA.COM.SPENDINGLIMIT.LEVEL3': [4572306392812004220436827323344350720062038824066606027105327797748992249152813285798364878111883817137615753142226614936719292063411224673363188469236136, 6631508384285477193296875664572481841017469976520919629385014218110593766584785791247464125229294490162972713798029093326871786219279294363796761179604995], 'MONCALAMARIEXPEDIA.COM.SPENDINGLIMIT.LEVEL2': [1378384789566041981446108217076300101136555630187777379347166609647433728953939169120712241891057907289384414947506251246786832600421338323388955865512509, 3189443892211375326618475661708944133666499980953353743725632341442973726183419266329157864522617488108006165199027897128677162158664519208237501225510523], 'GLOBAL.PAYMENT.VISA': [8672148673360360924370129110644869819036759693072585252196709225014763027677832711779893479635513004128885341597629148483196131592656833141059346221679898, 8389006691319133263481308879764301069570019868598389937994759993236383713725097690031433259779278963834086653751550370486587546126401966745793847425294222]}}, 'c2': {'alg': 'HMAC_SHA2', 'digest': '23655ba55663b37b148dffb8e967848146a234b34467478e7e627d6560096d36', 'msg': '{"ALG": 0, "IV": "wtgDf5rL6Bti/EA/z5og9A==", "MODE": 2, "CipherText": "L1QSGoOyMGWkUMB7I2xJoooDj889SGaQlhm7n7e968g="}'}}
+User agent: BNONCE decryption successful.
+User agent: BNONCE_RECEIVED.
+User agent: processing state:  State.BROADCAST_ECDHE_SEND_KEI_NI
+User agent: processBroadcastEcdheSendKeiNi.
+User agent: sending KEi, Ni...
+user.agent  simulator, send raw message:
+Location Server: received KEi, Ni.
+ b'\x00\x00\x01(.\x05c\xbf\x85\xf1\xa7]\x89\xc2,\x85J\xe9\xd2\x84(k\x00\x00\x00\x00\x00\x00{"ni": {"__value__": "kZJP1tVkpVSQj8UZYoSC/iJT0AFizH5k6Y85+sxdBDY=", "__class__": "bytes"}, "kei": {"__pairingCurve__": "SS512", "__value__": "1:M83MsbIBGaWqOqweB10qUy88TUhxwJsvN93f3ToNfrKIS3ryqL9zy2GU/n3wMFago5YLMO/zfaizvaygwJuMfgA=", "__class__": "pairing.Element"}}'
+Location Server: KEI_NI_RECEIVED, variables set.
+User agent: KEi, Ni sent. Waiting for KEr, Nr...
+Location Server: processing state:  State.BROADCAST_ECDHE_SEND_KER_NR
+Location Server: sending KEr, Nr.
+
+
+MitM Attack Mode: attempt to deceive Bob by reflecting its own KEi, Ni message back...
+
+
+location.service.agent  simulator, send raw message:
+User agent: invalid header values.
+ b'\x00\x00\x01(.\x05c\xbf\x85\xf1\xa7]\x89\xc2,\x85J\xe9\xd2\x84 k\x00\x00\x00\x00\x00\x02{"ker": {"__pairingCurve__": "SS512", "__value__": "1:pZh+YyDcPFPzz1QhE44hOx4ypLi7HK/3e8eLGW8VoTf2C6z8Yuu2V4U9yjk6Oks/Xj9xaWikVWxGdYXpwS7ZFQE=", "__class__": "pairing.Element"}, "nr": {"__value__": "agJsS+pteWiSAKHfXU94DUn7C0i8nPK35p4/ae26OFk=", "__class__": "bytes"}}'
+Location Server: proceeding to compute shared secrets.
+location.service.agent : computeEcdheSecrets.
+location.service.agent : sharedSecret:  [8671066674609131640156547632165968049509576851660599424200606405214822658242612442089802842208005260971699128150869945203141992300016112815748203655482409, 601491041207085596980832723307369242242003896785422066062029139342337013267173926409719388127402872324686902535266877369041676584718092505212093484233213]
+location.service.agent : keyMaterial:  b"\xde\xd8_\x82\xaa\x80\xe7\x95\xdfQ\x9a\x83)\x06o\xae\x05\rG\xf7\x8a\xb9\x9b\xccH\xcb\xff\x9f\xf4\xe1\xfd\xb5\x1c\xde\x9c\xaef\x86\xe5][\x16i'\x03\xcf\xb4\x9bP~H\x85\xbe\xe4\x03p\x02\xca\xecn\xc4\xa3kt:AN\x9a%7,\xd5D1\x8b5\xd1r\x82cGP\xcd\x81\xe7\xb8;8\x97\x970`r\x05(\xe1Mx\xf5)\x9e\x94\x95TLv\xff\x10#7\xb1\xd2\x04a\x8eQ\xbe\xf3b\x1c\xa4\xb6\x8c>\xa6\xf2\xc5#\xc1\x9e\xa2\xd5j\xd8F-y\xea\xb6\xfc\xa1\xebJv\x1d\x0c\xdaD.F\x84\xa5GbB+\x11\xd3\xb2&\xbc<\x0ch,\x92$\x19\xd3\xfb\xfaW\xa3\x8db\xee\x05\xe6\xce\x87\x12\xc3\x083\xe6(L\x8a\x9e\xd0\xa9\xef\xaf\xfd\x14<)\x1b\xcd_xY\xdbK\x90\x96o\x9ez\x88\xf0\xd1\x80\x97\xf8j\xc3\xe7\x08+y\xa9\xe9\xaa\xe5\xe7X\xa5]P \xcf\x81!A\xf2 G\x02\x97]\x1d\xc8\xffR\xc3\x010\xb6^\x82.\x99\x07\xa5\xb6"
+location.service.agent : created shared secrets.
+Location Server: SHARED_SECRETS_COMPUTED.
+User agent: processing state:  State.CLOSE_CONNECTIONS_AND_EXIT
+User agent: close connection and exit
+Location Server: processing state:  State.TIER1_PRIVACY_AUTHENTICATION
+user.agent : Active threads before cleaning up:  1
+Location Server: processTier1PrivacyAuthentication.
+User agent: Simulation finished.
+Current messageContainer:
+ {'signedOctetsKeiNiRawMessage': b'\x00\x00\x01(.\x05c\xbf\x85\xf1\xa7]\x89\xc2,\x85J\xe9\xd2\x84(k\x00\x00\x00\x00\x00\x00{"ni": {"__value__": "kZJP1tVkpVSQj8UZYoSC/iJT0AFizH5k6Y85+sxdBDY=", "__class__": "bytes"}, "kei": {"__pairingCurve__": "SS512", "__value__": "1:M83MsbIBGaWqOqweB10qUy88TUhxwJsvN93f3ToNfrKIS3ryqL9zy2GU/n3wMFago5YLMO/zfaizvaygwJuMfgA=", "__class__": "pairing.Element"}}', 'signedOctetsKerNrRawMessage': b'\x00\x00\x01(.\x05c\xbf\x85\xf1\xa7]\x89\xc2,\x85J\xe9\xd2\x84 k\x00\x00\x00\x00\x00\x02{"ker": {"__pairingCurve__": "SS512", "__value__": "1:pZh+YyDcPFPzz1QhE44hOx4ypLi7HK/3e8eLGW8VoTf2C6z8Yuu2V4U9yjk6Oks/Xj9xaWikVWxGdYXpwS7ZFQE=", "__class__": "pairing.Element"}, "nr": {"__value__": "agJsS+pteWiSAKHfXU94DUn7C0i8nPK35p4/ae26OFk=", "__class__": "bytes"}}', 'signedOctetsIdrPayload': b'{"uuid": "10caa7h0-5e12-71ce-010c-a7hebeac0140", "service": "LOCAUTH Service"}'}
+Location Server: State.TIER1_PRIVACY_AUTHENTICATION: Invalid header.
+Location Server: processing state:  State.CLOSE_CONNECTIONS_AND_EXIT
+Location Service: close connection and exit
+location.service.agent : Active threads before cleaning up:  2
+Location Server: Simulation finished.
+Simulation concluded.
