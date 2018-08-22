@@ -20,10 +20,6 @@ This Proof-of-Concept implements:
 
 `AuthenticationService/authenticationservice/test` contains unit test files, the protocol simulator (locathesimulator.py) and agent simulators (locationserviceagentsimulator.py, useragentsimulator.py). We will probably transfer these protocol-specific files to the parent directory here, as they are more simulators than test files.
 
-`AuthenticationService/authenticationservice/networkTest` has a few network-specific test modules.
-
-`AuthenticationService/authenticationservice/timingattackresilience` has legacy experiments with modfications to Charm to mitigate timing attacks in ABE encryption/decryption. The initiative has been abandoned.
-
 ## Running the PoC
 
 For a vizualization of the LOCATHE protocol at work, run `locathesimulator.py`. This code will instantiate the peer agent objects, the appropriate Location Service, Authentication, User objects, will populate the databases with necessary data for the simulation and start both Location Service and User agent peers in their own independent processes within the same localhost.
