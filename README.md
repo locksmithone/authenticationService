@@ -20,6 +20,8 @@ This Proof-of-Concept implements:
 
 `AuthenticationService/authenticationservice/test` contains unit test files, the protocol simulator (locathesimulator.py) and agent simulators (locationserviceagentsimulator.py, useragentsimulator.py). We will probably transfer these protocol-specific files to the parent directory here, as they are more simulators than test files.
 
+`AuthenticationService/authenticationservice/evaluation/` contains the actual evaluation code that runs the proof-of-concept. The `main` subdirectory contains the main code with a simulation of the protocol, and the other subdirectories contain simulations of specific attack scenarios.
+
 ## Running the PoC
 
 For a vizualization of the LOCATHE protocol at work, run `locathesimulator.py`. This code will instantiate the peer agent objects, the appropriate Location Service, Authentication, User objects, will populate the databases with necessary data for the simulation and start both Location Service and User agent peers in their own independent processes within the same localhost.
